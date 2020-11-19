@@ -1,0 +1,30 @@
+.pagination-wrapper {
+  bottom: 60px;
+  display: flex;
+  position: absolute;
+  height: 25px;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.pagination-button {
+  display: none;
+}
+
+.pagination-button {
+  height: 30px;
+  font-family: 'Roboto Mono', monospace;
+  width: 50%;
+  text-align: center;
+  transition: all 0.2s;
+  background-color: #B3F2D3;
+  color: black;
+
+  &:hover {
+    color: white;
+    background-color: #84c9a6;
+  }
+  &:disabled{
+    background-color: rgb(184, 184, 184);
+  }
+}

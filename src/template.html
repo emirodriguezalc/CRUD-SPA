@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title><%= htmlWebpackPlugin.options.title %></title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="page-container">
+
+    <header class="logo">
+      <div class="logo">
+        <img src="./images/small-logo.png" alt="something" class="crud-logo">
+      </div>
+    </header>
+    <main>
+      <form>
+        <input type="text" id="search" placeholder="Type the first thing that comes to your mind..." autocomplete="off"
+          class="search-bar">
+        <label for="search"></label>
+      </form>
+      <div class="dropdown">
+        <div id="myDropdown" class="dropdown-content">
+          <ul id="dropdown-list">
+          </ul>
+          <button class="clear">clear all</button>
+        </div>
+      </div>
+
+
+      <div class="image-list"></div>
+
+
+      <div class="pagination-wrapper">
+        <button class="prev pagination-button">Prev</button>
+        <button class="next pagination-button">Next</button>
+      </div>
+
+    </main>
+    <footer>
+      <a href="https://github.com/sanderheieren/CRUD-SPA">
+        Github link
+        <img src="./images/github-logo.png" alt="something" class="github-logo">
+      </a>
+    </footer>
+  </div>
+
+</body>
+
+</html>
